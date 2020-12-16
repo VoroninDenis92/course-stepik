@@ -1,0 +1,40 @@
+﻿body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.row {
+    
+}
+
+
+
+.nav {
+    height: 56px;
+    background: #343A40;
+    color: #FFFFFF;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+
+.logo {
+    font-size: 20px;
+    line-height: 23px;
+    float: left;
+    padding-right: 24px;
+}
+
+
+.nav p {
+    padding-right: 16px;
+}
+
+.header {
+    height: 342px;
+    background: #E9ECEF;
+    padding: 64px 55px;
+
+}
