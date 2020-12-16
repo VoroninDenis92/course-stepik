@@ -12,6 +12,7 @@
 
 
 
+
 .nav {
     height: 56px;
     background: #343A40;
@@ -27,6 +28,12 @@
     padding-right: 24px;
 }
 
+h1 {
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #212529;
+}
 
 .nav p {
     padding-right: 16px;
@@ -37,4 +44,12 @@
     background: #E9ECEF;
     padding: 64px 55px;
 
+}
+
+.card {
+    margin-top: 32px;
+}
+
+.card-header {
+    padding: 16px 0 13px 20px;
 }
