@@ -6,19 +6,41 @@
     line-height: 19px;
 }
 
-.nav {
+.top {
     height: 56px;
     background: #343A40;
     color: #FFFFFF;
     padding-top: 19px;
-    padding-left: 16px;
 }
+
+
 
 .logo {
     font-size: 20px;
     line-height: 23px;
     float: left;
     padding-right: 24px;
+    padding-left: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+a {
+    display: block;
+    margin-right: 16px;
+    color: #FFFFFF;
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+.header {
+    height: 342px;
+    background: #E9ECEF;
+    padding-top: 64px;
 }
 
 h1 {
@@ -28,18 +50,7 @@ h1 {
     color: #212529;
 }
 
-.nav p {
-    padding-right: 16px;
-}
-
-.header {
-    height: 342px;
-    background: #E9ECEF;
-    padding-top: 64px;
-    padding-left: 55px;
-}
-
-.card {
+.col, .card {
     margin-top: 32px;
 }
 
@@ -47,12 +58,18 @@ h1 {
     padding: 16px 0 13px 20px;
 }
 
-.footer {
+footer {
     background: #F5F5F5;
     height: 51px;
     padding: 16px 55px;
 }
 
-.pd {
-    padding-left: 55px;
+
+tbody {
+    color: #007BFF;
+}
+
+
+.data {
+    color: #000000;
 }
